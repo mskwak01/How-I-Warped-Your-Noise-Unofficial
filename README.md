@@ -10,10 +10,20 @@ An unofficial implementation of ICLR 2024 paper "How I Warped Your Noise", Chang
 
 ## Additional Details
 
-- Cell 10 contains
+Cell 9 contains the following code:
+```
+  warp_idxs = torch.stack((warp_i, warp_j), dim=-1)
+  tgt_to_src_map = warp_idxs
+```
+Variable `tgt_to_src_map` designates the corresponding locations that each vertex of partitioned polygons of the target frame is mapped to at the source frame (warped locations). 
+- The current code provides simple warping configurations, identity mapping (no change), and rotation mapping (slight rotation), for testing purposes.
+- Replace the variable with your desired correspondence mapping for your personal usage.
 
-- 
+--------
 
+This implementation contains two separate implementations for triangle rasterization, at Cells 12 and 13. 
+- Using the code at Cell 12, which uses scatter `torch.scatter_add_()` is more efficient and therefore recommended.
+- The code at Cell 13 uses `for` loop for sequential rasterization, and is therefore much slower, but computationally cheaper. 
 
 
 
