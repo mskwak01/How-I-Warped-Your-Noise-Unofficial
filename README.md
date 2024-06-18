@@ -1,8 +1,6 @@
 # How I Warped Your Noise (ICLR 2024) - Unofficial
 
-An unofficial implementation of the ICLR 2024 paper "How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models", Chang et al.
-
-Implemented by [Min-Seop Kwak](https://mskwak01.github.io/).
+An unofficial implementation of the ICLR 2024 paper "How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models", Chang et al. Implemented by [Min-Seop Kwak](https://mskwak01.github.io/).
 
 ## Introduction
 
