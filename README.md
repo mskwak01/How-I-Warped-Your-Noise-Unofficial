@@ -1,4 +1,4 @@
-# How I Warped Your Noise, ICLR 2024
+# How I Warped Your Noise (ICLR 2024), Unofficial Implementation
 
 An unofficial implementation of ICLR 2024 paper "How I Warped Your Noise", Chang et al.
 
