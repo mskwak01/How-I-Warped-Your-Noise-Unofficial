@@ -2,6 +2,8 @@
 
 An unofficial implementation of the ICLR 2024 paper "How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models", Chang et al.
 
+Implemented by [Min-Seop Kwak](https://mskwak01.github.io/).
+
 ## Introduction
 
 - The Jupyter Notebook file "How_I_Warped_Your_Noise_Unofficial" has been originally written for Google Colab. For direct usage at Colab, we provide the direct [link](https://colab.research.google.com/drive/1_vdMUvRI2sm9q60FAwYaThr1jgJEj2Ie?usp=sharing) to the Colab.
